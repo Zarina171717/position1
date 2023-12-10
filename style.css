@@ -1,4 +1,34 @@
 body {
   font-family: "Dosis", sans-serif;
   font-weight: 500;
+}
+
+#demo1 .box .minibox {
+  height: 100px;
+  width: 100px;
+  border: 3px solid rgba(182, 31, 184, 0.3098039216);
+  border-radius: 50px;
+  color: rgba(182, 31, 184, 0.3098039216);
+  background-color: #ffe0f8;
+  transition: 1s;
+}
+#demo1 .box .minibox:hover {
+  font-size: 100px;
+  color: rgba(36, 223, 223, 0.3098039216);
+}
+@media screen and (max-width: 1000px) {
+  #demo1 .box .minibox {
+    height: 300px;
+    width: 300px;
+    border: 9px solid rgba(182, 31, 184, 0.3098039216);
+    color: rgba(182, 31, 184, 0.3098039216);
+    background-color: rgba(36, 223, 223, 0.3098039216);
+    border-radius: 0;
+    margin-bottom: 50px;
+  }
+}
+
+#demo2 .box .minibox {
+  width: 100px;
+  height: 300px;
 }/*# sourceMappingURL=style.css.map */
