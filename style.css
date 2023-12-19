@@ -16,7 +16,7 @@ body {
   font-size: 100px;
   color: rgba(36, 223, 223, 0.3098039216);
 }
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 800px) {
   #demo1 .box .minibox {
     height: 300px;
     width: 300px;
@@ -32,48 +32,87 @@ body {
   padding: 100px 0;
 }
 #demo2 .box .minibox {
-  width: 600px;
-  height: 300px;
-  border: 9px solid #176c89;
-  color: #176c89;
+  width: 150px;
+  height: 150px;
+  border: 3px solid #83afbe;
+  font-size: 24px;
+  color: #084b61;
+  font-weight: 600;
+  padding: 15px;
   transition: 1s;
 }
 #demo2 .box .minibox:hover {
-  background-color: #40f1cb;
-  color: #d5e58f;
+  border: 5px solid #135c74;
+  width: 300px;
+  height: 100px;
 }
-@media screen and (min-width: 1200px) {
+@media screen and (max-width: 800px) {
   #demo2 .box .minibox {
+    width: 100px;
+    height: 100px;
+    border: 3px solid #83afbe;
+    font-size: 20px;
+    color: #084b61;
+    font-weight: 600;
+    padding: 10px;
+    background-color: #feffab;
+    transition: 1s;
+  }
+  #demo2 .box .minibox:hover {
+    border: 5px solid #135c74;
     width: 300px;
-    height: 600px;
-    border: 9px solid #176c89;
-    color: #176c89;
-    font-size: 100px;
-    padding: 230px 100px;
-    background-color: #d5e58f;
+    height: 50px;
   }
 }
 
-#demo3 {
-  padding: 100px 0;
-}
 #demo3 .box .btn {
-  padding: 20px 70px;
-  font-size: 30px;
-  background-color: #3c9356;
-  border: 3px solid #1e6544;
-  color: #1e6544;
+  padding: 10px 30px;
+  font-size: 25px;
+  background-color: #75c08c;
+  border: 5px solid #75c08c;
+  color: white;
 }
 #demo3 .box .btn:hover {
-  background-color: #e52424;
+  background-color: #cf5881;
+  color: #75c08c;
 }
-@media screen and (min-width: 800px) {
+@media screen and (max-width: 800px) {
   #demo3 .box .btn {
-    padding: 40px 90px;
-    font-weight: 600;
-    font-size: 60px;
-    background-color: #60da84;
-    border: 10px solid #1e6544;
-    color: #1e6544;
+    padding: 10px 30px;
+    font-size: 25px;
+    background-color: #73285b;
+  }
+}
+
+#demo4 {
+  padding: 100px 0;
+}
+#demo4 .box {
+  text-align: center;
+  width: 200px;
+  height: 200px;
+  border: 5px solid #d3a437;
+  padding-top: 10px;
+  font-size: 30px;
+  color: #d3a437;
+  transition: 1s;
+}
+#demo4 .box:hover {
+  background-color: #cecb76;
+  width: 100px;
+  height: 100px;
+}
+@media screen and (max-width: 800px) {
+  #demo4 .box {
+    text-align: center;
+    width: 200px;
+    height: 200px;
+    border: 8px solid #6c9b2a;
+    padding-top: 10px;
+    font-size: 30px;
+    font-weight: 700;
+    color: #6c9b2a;
+    transition: 1s;
+    background-color: #d4e997;
   }
 }/*# sourceMappingURL=style.css.map */
